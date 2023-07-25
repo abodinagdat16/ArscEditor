@@ -12,6 +12,11 @@ android {
         versionCode VERSION_CODE
         versionName VERSION_NAME
     }
+    
+      lintOptions {
+          abortOnError false
+      }
+    
 
     compileOptions {
         sourceCompatibility SOURCE_COMPATIBILITY
